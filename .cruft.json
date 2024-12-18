@@ -1,0 +1,25 @@
+{
+  "template": "https://github.com/UrbanMachine/create-ros-app.git",
+  "commit": "46f618667950a47275d2976e91c99dd4bd15764b",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "email": "matt@doics.co",
+      "github_username_or_org": "proffalken",
+      "dockerhub_username_or_org": "proffalken",
+      "project_name": "testing_um_template",
+      "__project_name_slug": "testing_um_template",
+      "project_description": "This is a test of the Urban Machine template",
+      "version": "0.1.0",
+      "license": "MIT",
+      "example_package_name": "um_test",
+      "example_package_description": "This is the first package of this project, and shows how to integrate packages!",
+      "example_node_name": "UmTemplate",
+      "example_launch_profile": "umtemplate_launch_profile",
+      "example_package_version": "0.1.0",
+      "__example_messages_package_name": "um_test_msgs",
+      "_template": "https://github.com/UrbanMachine/create-ros-app.git"
+    }
+  },
+  "directory": null
+}

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "um_test"
+version = "0.1.0"
+description = "This is the first package of this project, and shows how to integrate packages!"
+authors = ["proffalken <matt@doics.co>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.12.0,<4.0"
+
+[tool.poetry.scripts]
+# Each entry here will create an executable which can be referenced in launchfiles
+run_UmTemplate = "um_test.nodes.um_test_node:main"
+
+[tool.colcon-poetry-ros.data-files]
+"share/ament_index/resource_index/packages" = ["resource/um_test"]
+"share/um_test" = ["package.xml"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
